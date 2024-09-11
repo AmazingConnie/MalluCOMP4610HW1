@@ -6,20 +6,23 @@ GUI Assignment: Creating Your First Web Page
 Description: This is the page containing styling information for the website
 */
 
-/*Center all <h1> elements*/
+/*Center all titles and subtitles*/
 h1{
     text-align: center;
 }
 
-/*Center all <h2> elements*/
 h2{
     text-align: center;
 }
 
-/*Center the table*/
+/*Style the table*/
 table.center{
     margin-left: auto;
     margin-right: auto;
+}
+
+table, th, td {
+    border: 1px solid;
 }
 
 /*Center all images with the class "center"*/
@@ -28,11 +31,6 @@ img.center {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-}
-
-/*Add borders to the table, its rows, and its columns*/
-table, th, td {
-    border: 1px solid;
 }
 
 /*Set the background color of all .html files to azure*/
